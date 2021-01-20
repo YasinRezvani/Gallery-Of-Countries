@@ -67,12 +67,15 @@ nav .head {
     border-radius: 10px;
     margin: 0px 4px;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 .items .all {
     background-color: #007bff;
-    color: white;
-    
+    color: white;   
+}
+.items .active{
+    border: 2px solid rgba(0, 0, 0, 0.6);
 }
 
 .gallery{
@@ -86,6 +89,14 @@ nav .head {
     width: calc(100% / 4);
     padding: 7px;
 }
+.gallery .image.hide{
+   display: none;
+}
+.gallery .image.show{
+   display: show;
+}
+
+
 
 .gallery .image img{
     width: 100%;
@@ -142,37 +153,6 @@ nav .head {
         margin: 5px;
     }
 }
-
-.ir:hover{
-    background-image: url(../img/download.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10px 41px;
-    
-    
-
-}/*
-.ir:hover p{
-    display: none;
-}
-.en:hover{
-    background-image: url(../img/1200px-Flag_of_the_United_Kingdom.svg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 4px 56px;
-    
-
-}
-.en:hover p{
-    display: none;
-}
-*/
-
-
-
-
 
 
 
