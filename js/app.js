@@ -12,13 +12,13 @@ let image = document.querySelectorAll('.image');
                     let filterimage = img.getAttribute("data-name");
                     
 
-                    if(filtername == filterimage || filtername == "all"){
+                    if((filtername == filterimage) || filtername == "all"){
+                    img.classList.remove("hide");
                     img.classList.add("show");
                 }
                 else{
                     img.classList.add("hide");
-                    img.classList.remove("show");
-                    
+                    img.classList.remove("show");                   
                 }
                 
 

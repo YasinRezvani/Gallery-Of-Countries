@@ -93,7 +93,17 @@ nav .head {
    display: none;
 }
 .gallery .image.show{
-   display: show;
+   animation: animate 0.6s ease;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0.6);
+    }
+
+    100%{
+        transform: scale(1);
+    }
 }
 
 
