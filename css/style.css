@@ -107,6 +107,44 @@ nav .head {
     transform: scale(1.1);
 }
 
+@media screen and (max-width : 1000px){
+    .gallery .image{
+        width: calc(100% / 3);
+        padding: 7px;
+    }
+    .items .item{
+        padding: 4px 15px;
+        margin-left: 2px;
+     }
+}
+
+
+@media screen and (max-width : 800px){
+    .gallery .image{
+        width: calc(100% / 2);
+        padding: 7px;
+    }
+
+    .items .item{
+       padding: 7px 15px;
+       margin-left: 5px;
+    }
+}
+@media screen and (max-width : 600px){
+    .gallery .image{
+        width: 100%;
+    }
+
+    .items{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .items .item{
+        margin: 5px;
+    }
+}
+
 
 
 
