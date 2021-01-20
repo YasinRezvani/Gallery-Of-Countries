@@ -81,16 +81,31 @@ nav .head {
 .gallery{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0px 20px;
 }
 
 .gallery .image{
     width: calc(100% / 4);
+    padding: 7px;
 }
 
 .gallery .image img{
     width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+    border-radius: 3px;
 }
 
+.gallery .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery .image:hover img{
+    transform: scale(1.1);
+}
 
 
 
