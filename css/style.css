@@ -37,10 +37,10 @@ nav .head {
 }
 
 .img1 {
-    width: 40px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     display: flex;
-    margin: 25px 306px -51px 0px;
+    margin: 25px 306px -51px -5px;
 
 }
 
@@ -71,12 +71,13 @@ nav .head {
 }
 
 .items .all {
-    transition: all 0.4s ease;
+    
 }
 
 .items .all {
     background-color: #007bff;
     color: white;
+    transition: all 0.4s ease;
 }
 
 .gallery{
@@ -115,8 +116,8 @@ nav .head {
         padding: 7px;
     }
     .items .item{
-        padding: 4px 15px;
-        margin-left: 2px;
+        padding: 4px 19px;
+        margin-left: 5px;
      }
 }
 
@@ -128,8 +129,8 @@ nav .head {
     }
 
     .items .item{
-       padding: 7px 15px;
-       margin-left: 5px;
+       padding: 7px 10px;
+       
     }
 }
 @media screen and (max-width : 700px){
