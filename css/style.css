@@ -1,7 +1,126 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sahel;
+
 }
 
+
+nav {
+    background-color: rgba(0, 0, 0, 1);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav .head {
+    text-align: center;
+}
+
+nav .head {
+    margin-top: -13px;
+    font-size: 30px;
+    margin-right: -24px;
+}
+
+.img {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    margin: -53px 0px 0px 0px;
+}
+
+.img1 {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    margin: 25px 306px -51px 0px;
+
+}
+
+.wrapper {
+    margin: 95px 110px 25px 110px;
+    max-width: 1100px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.items {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.items .item {
+    padding: 4px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #007bff;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.items .all {
+    transition: all 0.4s ease;
+}
+
+.items .all {
+    background-color: #007bff;
+    color: white;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .image{
+    width: calc(100% / 4);
+}
+
+.gallery .image img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin: 7px;
+    color: white;
+    user-select: none;
+}
+
+.fa-heart {
+    margin: 0px 3px;
+    color: red;
+}
+
+.fa-coffee {
+    margin: 0px 3px;
+    color: #976846;
+}
