@@ -106,8 +106,6 @@ nav .head {
     }
 }
 
-
-
 .gallery .image img{
     width: 100%;
     vertical-align: middle;
@@ -164,8 +162,50 @@ nav .head {
     }
 }
 
+.preview-box{
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 750px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0px 5px 5px 5px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
 
+.preview-box .details .title{
+    display: flex;
+    font-weight: 600;
+}
+.preview-box .details .title p{ 
+    margin-right: 5px;
+    font-weight: 700;
+}
+.preview-box .details .icon{ 
+   font-size: 22px;
+   color: #007bff;
+   cursor: pointer;
+}
 
+.preview-box .details{
+    display: flex;
+    padding: 10px 15px 13px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preview-box .image-box{
+    display: flex;
+    width: 100%;
+}
+
+.preview-box .image-box img{
+    width: 100%;
+    border-radius:  2px 2px 3px 3px;
+}
 
 
 
