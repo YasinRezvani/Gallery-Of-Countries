@@ -54,30 +54,25 @@ nav .head {
 
 .items {
     display: flex;
-    max-width: 720px;
+    max-width: 735px;
     width: 100%;
-    justify-content: space-between;
 }
 
 .items .item {
-    padding: 4px 25px;
+    padding: 4px 24px;
     font-size: 18px;
     font-weight: 500;
     color: #007bff;
     border: 2px solid rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    margin: 0px 0px;
+    margin: 0px 4px;
     cursor: pointer;
-}
-
-.items .all {
-    
 }
 
 .items .all {
     background-color: #007bff;
     color: white;
-    transition: all 0.4s ease;
+    
 }
 
 .gallery{
@@ -147,6 +142,35 @@ nav .head {
         margin: 5px;
     }
 }
+
+.ir:hover{
+    background-image: url(../img/download.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 41px;
+    
+    
+
+}/*
+.ir:hover p{
+    display: none;
+}
+.en:hover{
+    background-image: url(../img/1200px-Flag_of_the_United_Kingdom.svg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4px 56px;
+    
+
+}
+.en:hover p{
+    display: none;
+}
+*/
+
+
 
 
 

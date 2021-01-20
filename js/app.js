@@ -5,11 +5,9 @@ let image = document.querySelectorAll('.image');
     window.onload = () =>{
         items.onclick= (selected) =>{
             if (selected.target.classList.contains('item')){
-                console.log(items.querySelector('.active'));
-            }
-
-            else{
-                console.log('nooo')
+                items.querySelector('.all').classList.remove('all');
+                selected.target.classList.add('all');
             }
         }
     }
+
