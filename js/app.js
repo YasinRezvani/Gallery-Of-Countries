@@ -45,6 +45,6 @@ function pre(element) {
     icon.onclick = () => {
         previewbox.classList.remove("show");
         shadow.classList.remove("show");
-       
+        document.querySelector('body').style.overflow = "visible";
     }
 }
