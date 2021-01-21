@@ -182,8 +182,8 @@ nav .head {
     opacity: 1;
     transform: translate(-50%,-50%) scale(1);
     pointer-events: auto;
-
 }
+
 
 .preview-box .details .title{
     display: flex;
@@ -195,9 +195,10 @@ nav .head {
     font-weight: 700;
 }
 .preview-box .details .icon{ 
-   font-size: 22px;
+   font-size: 23px;
    color: #007bff;
    cursor: pointer;
+   font-weight: bolder;
 }
 
 .preview-box .details{

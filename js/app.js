@@ -28,8 +28,8 @@ window.onload = () => {
     }
 }
 
-const previewbox = document.querySelector('.preview-box');
-const icon = document.querySelector(".icon");
+let  previewbox= document.querySelector('.preview-box');    
+let icon = document.querySelector(".icon");
 
     function pre(element){
         previewbox.classList.add("show");
