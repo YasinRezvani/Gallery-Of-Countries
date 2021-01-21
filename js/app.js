@@ -28,15 +28,23 @@ window.onload = () => {
     }
 }
 
-let  previewbox= document.querySelector('.preview-box');    
+let previewbox = document.querySelector('.preview-box');
 let icon = document.querySelector(".icon");
+let country = document.querySelector(".title p");
+let previewimg = previewbox.querySelector("img");
+let shadow = document.querySelector(".shadow")
 
-    function pre(element){
-        previewbox.classList.add("show");
-        icon.onclick= () =>{
-            previewbox.classList.remove("show");
-        }
+function pre(element) {
+    document.querySelector('body').style.overflow = "hidden";
+    selectedimg = element.querySelector("img").src;
+    selectedcountry = element.getAttribute("data-name-1");
+    country.textContent = selectedcountry;
+    previewimg.src = selectedimg;
+    shadow.classList.add("show");
+    previewbox.classList.add("show");
+    icon.onclick = () => {
+        previewbox.classList.remove("show");
+        shadow.classList.remove("show");
+       
     }
-
-
-
+}

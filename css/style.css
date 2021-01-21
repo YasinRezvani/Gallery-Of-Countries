@@ -218,7 +218,7 @@ nav .head {
     border-radius:  2px 2px 3px 3px;
 }
 
-.shadow{
+.shadow.show{
     top: 0;
     right: 0;
     z-index: 3;
@@ -226,7 +226,13 @@ nav .head {
     height: 100%;
     display: none;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s;
+}
+
+.shadow.show{
+    display: block;
+    
 }
 
 
